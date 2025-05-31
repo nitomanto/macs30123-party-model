@@ -1,0 +1,164 @@
+/home/anitasun/.local/lib/python3.9/site-packages/distributed/cli/dask_worker.py:333: FutureWarning: The --nprocs flag will be removed in a future release. It has been renamed to --nworkers.
+  warnings.warn(
+2025-05-30 15:39:07,942 - distributed.nanny - INFO -         Start Nanny at: 'tcp://172.25.2.146:34729'
+2025-05-30 15:39:07,948 - distributed.nanny - INFO -         Start Nanny at: 'tcp://172.25.2.146:45329'
+2025-05-30 15:39:07,951 - distributed.nanny - INFO -         Start Nanny at: 'tcp://172.25.2.146:33505'
+2025-05-30 15:39:07,956 - distributed.nanny - INFO -         Start Nanny at: 'tcp://172.25.2.146:43485'
+2025-05-30 15:39:07,957 - distributed.nanny - INFO -         Start Nanny at: 'tcp://172.25.2.146:33685'
+2025-05-30 15:39:07,957 - distributed.nanny - INFO -         Start Nanny at: 'tcp://172.25.2.146:39389'
+2025-05-30 15:39:07,960 - distributed.nanny - INFO -         Start Nanny at: 'tcp://172.25.2.146:33487'
+2025-05-30 15:39:07,960 - distributed.nanny - INFO -         Start Nanny at: 'tcp://172.25.2.146:33437'
+2025-05-30 15:39:07,961 - distributed.nanny - INFO -         Start Nanny at: 'tcp://172.25.2.146:35585'
+2025-05-30 15:39:07,961 - distributed.nanny - INFO -         Start Nanny at: 'tcp://172.25.2.146:34567'
+2025-05-30 15:39:15,428 - distributed.worker - INFO -       Start worker at:   tcp://172.25.2.146:34589
+2025-05-30 15:39:15,428 - distributed.worker - INFO -       Start worker at:   tcp://172.25.2.146:33985
+2025-05-30 15:39:15,428 - distributed.worker - INFO -       Start worker at:   tcp://172.25.2.146:40347
+2025-05-30 15:39:15,428 - distributed.worker - INFO -          Listening to:   tcp://172.25.2.146:34589
+2025-05-30 15:39:15,428 - distributed.worker - INFO -       Start worker at:   tcp://172.25.2.146:46125
+2025-05-30 15:39:15,428 - distributed.worker - INFO -          Listening to:   tcp://172.25.2.146:33985
+2025-05-30 15:39:15,428 - distributed.worker - INFO -       Start worker at:   tcp://172.25.2.146:35715
+2025-05-30 15:39:15,428 - distributed.worker - INFO -       Start worker at:   tcp://172.25.2.146:42039
+2025-05-30 15:39:15,428 - distributed.worker - INFO -       Start worker at:   tcp://172.25.2.146:39941
+2025-05-30 15:39:15,428 - distributed.worker - INFO -          Listening to:   tcp://172.25.2.146:40347
+2025-05-30 15:39:15,428 - distributed.worker - INFO -          dashboard at:         172.25.2.146:42987
+2025-05-30 15:39:15,428 - distributed.worker - INFO -       Start worker at:   tcp://172.25.2.146:32823
+2025-05-30 15:39:15,428 - distributed.worker - INFO -          dashboard at:         172.25.2.146:39845
+2025-05-30 15:39:15,428 - distributed.worker - INFO -          Listening to:   tcp://172.25.2.146:46125
+2025-05-30 15:39:15,428 - distributed.worker - INFO -          Listening to:   tcp://172.25.2.146:35715
+2025-05-30 15:39:15,428 - distributed.worker - INFO -          Listening to:   tcp://172.25.2.146:42039
+2025-05-30 15:39:15,428 - distributed.worker - INFO -          dashboard at:         172.25.2.146:32775
+2025-05-30 15:39:15,428 - distributed.worker - INFO - Waiting to connect to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,428 - distributed.worker - INFO -          Listening to:   tcp://172.25.2.146:39941
+2025-05-30 15:39:15,428 - distributed.worker - INFO - Waiting to connect to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,428 - distributed.worker - INFO -          Listening to:   tcp://172.25.2.146:32823
+2025-05-30 15:39:15,428 - distributed.worker - INFO -          dashboard at:         172.25.2.146:39771
+2025-05-30 15:39:15,428 - distributed.worker - INFO -          dashboard at:         172.25.2.146:38371
+2025-05-30 15:39:15,428 - distributed.worker - INFO - Waiting to connect to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,428 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,428 - distributed.worker - INFO -          dashboard at:         172.25.2.146:44205
+2025-05-30 15:39:15,428 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,428 - distributed.worker - INFO -          dashboard at:         172.25.2.146:39711
+2025-05-30 15:39:15,428 - distributed.worker - INFO - Waiting to connect to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,428 - distributed.worker - INFO -          dashboard at:         172.25.2.146:36767
+2025-05-30 15:39:15,428 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,430 - distributed.worker - INFO - Waiting to connect to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,428 - distributed.worker - INFO -       Start worker at:   tcp://172.25.2.146:39277
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,428 - distributed.worker - INFO - Waiting to connect to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,430 - distributed.worker - INFO - Waiting to connect to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,428 - distributed.worker - INFO -       Start worker at:   tcp://172.25.2.146:46213
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,428 - distributed.worker - INFO - Waiting to connect to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,430 - distributed.worker - INFO -               Threads:                          2
+2025-05-30 15:39:15,428 - distributed.worker - INFO -               Threads:                          2
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,430 - distributed.worker - INFO -          Listening to:   tcp://172.25.2.146:39277
+2025-05-30 15:39:15,430 - distributed.worker - INFO -               Threads:                          2
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,430 - distributed.worker - INFO -          Listening to:   tcp://172.25.2.146:46213
+2025-05-30 15:39:15,430 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2025-05-30 15:39:15,430 - distributed.worker - INFO -               Threads:                          2
+2025-05-30 15:39:15,430 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2025-05-30 15:39:15,430 - distributed.worker - INFO -          dashboard at:         172.25.2.146:45953
+2025-05-30 15:39:15,430 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2025-05-30 15:39:15,430 - distributed.worker - INFO -               Threads:                          2
+2025-05-30 15:39:15,430 - distributed.worker - INFO -       Local Directory: /scratch/local/jobs/31343607/dask-worker-space/worker-ypx08d1b
+2025-05-30 15:39:15,430 - distributed.worker - INFO -          dashboard at:         172.25.2.146:35341
+2025-05-30 15:39:15,430 - distributed.worker - INFO -       Local Directory: /scratch/local/jobs/31343607/dask-worker-space/worker-30ukq51y
+2025-05-30 15:39:15,430 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2025-05-30 15:39:15,430 - distributed.worker - INFO -       Local Directory: /scratch/local/jobs/31343607/dask-worker-space/worker-jb0j8vw3
+2025-05-30 15:39:15,430 - distributed.worker - INFO - Waiting to connect to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,430 - distributed.worker - INFO -               Threads:                          2
+2025-05-30 15:39:15,430 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2025-05-30 15:39:15,430 - distributed.worker - INFO -               Threads:                          2
+2025-05-30 15:39:15,430 - distributed.worker - INFO - Waiting to connect to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,430 - distributed.worker - INFO -               Threads:                          2
+2025-05-30 15:39:15,430 - distributed.worker - INFO -       Local Directory: /scratch/local/jobs/31343607/dask-worker-space/worker-5hvvx8y7
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,430 - distributed.worker - INFO -       Local Directory: /scratch/local/jobs/31343607/dask-worker-space/worker-qzf2r4va
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,430 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,430 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2025-05-30 15:39:15,430 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2025-05-30 15:39:15,430 - distributed.worker - INFO -       Local Directory: /scratch/local/jobs/31343607/dask-worker-space/worker-_1b2k0aw
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,430 - distributed.worker - INFO -       Local Directory: /scratch/local/jobs/31343607/dask-worker-space/worker-u01l4u0t
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,430 - distributed.worker - INFO -       Local Directory: /scratch/local/jobs/31343607/dask-worker-space/worker-csxxelzu
+2025-05-30 15:39:15,430 - distributed.worker - INFO -               Threads:                          2
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,430 - distributed.worker - INFO -               Threads:                          2
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,430 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,430 - distributed.worker - INFO -                Memory:                   7.45 GiB
+2025-05-30 15:39:15,430 - distributed.worker - INFO -       Local Directory: /scratch/local/jobs/31343607/dask-worker-space/worker-kbgquv25
+2025-05-30 15:39:15,430 - distributed.worker - INFO -       Local Directory: /scratch/local/jobs/31343607/dask-worker-space/worker-yx4tjisi
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,430 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,461 - distributed.worker - INFO -         Registered to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,461 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,462 - distributed.core - INFO - Starting established connection
+2025-05-30 15:39:15,462 - distributed.worker - INFO -         Registered to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,462 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,463 - distributed.worker - INFO -         Registered to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,463 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,463 - distributed.core - INFO - Starting established connection
+2025-05-30 15:39:15,463 - distributed.worker - INFO -         Registered to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,463 - distributed.core - INFO - Starting established connection
+2025-05-30 15:39:15,463 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,464 - distributed.core - INFO - Starting established connection
+2025-05-30 15:39:15,464 - distributed.worker - INFO -         Registered to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,464 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,464 - distributed.core - INFO - Starting established connection
+2025-05-30 15:39:15,464 - distributed.worker - INFO -         Registered to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,465 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,465 - distributed.worker - INFO -         Registered to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,465 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,465 - distributed.core - INFO - Starting established connection
+2025-05-30 15:39:15,465 - distributed.worker - INFO -         Registered to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,465 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,465 - distributed.core - INFO - Starting established connection
+2025-05-30 15:39:15,466 - distributed.worker - INFO -         Registered to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,466 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,466 - distributed.core - INFO - Starting established connection
+2025-05-30 15:39:15,466 - distributed.worker - INFO -         Registered to:    tcp://172.25.0.65:45047
+2025-05-30 15:39:15,466 - distributed.worker - INFO - -------------------------------------------------
+2025-05-30 15:39:15,466 - distributed.core - INFO - Starting established connection
+2025-05-30 15:39:15,467 - distributed.core - INFO - Starting established connection
+2025-05-30 16:21:45,718 - distributed.core - INFO - Event loop was unresponsive in Worker for 10.09s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 16:24:04,724 - distributed.core - INFO - Event loop was unresponsive in Worker for 95.21s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 16:25:39,053 - distributed.core - INFO - Event loop was unresponsive in Worker for 94.33s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 16:28:39,575 - distributed.core - INFO - Event loop was unresponsive in Worker for 180.52s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:04:44,036 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.44s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:05:42,282 - distributed.core - INFO - Event loop was unresponsive in Worker for 15.32s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:06:58,370 - distributed.core - INFO - Event loop was unresponsive in Worker for 41.31s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:07:39,226 - distributed.core - INFO - Event loop was unresponsive in Worker for 116.94s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:08:35,956 - distributed.core - INFO - Event loop was unresponsive in Worker for 56.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:09:07,066 - distributed.core - INFO - Event loop was unresponsive in Worker for 128.70s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:09:26,649 - distributed.core - INFO - Event loop was unresponsive in Worker for 19.58s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:12:27,285 - distributed.core - INFO - Event loop was unresponsive in Worker for 180.64s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:13:45,455 - distributed.core - INFO - Event loop was unresponsive in Worker for 15.44s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:14:05,171 - distributed.core - INFO - Event loop was unresponsive in Worker for 54.79s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:14:29,941 - distributed.core - INFO - Event loop was unresponsive in Worker for 41.38s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:14:43,998 - distributed.core - INFO - Event loop was unresponsive in Worker for 92.03s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:15:28,100 - distributed.core - INFO - Event loop was unresponsive in Worker for 102.65s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:15:30,851 - distributed.core - INFO - Event loop was unresponsive in Worker for 10.74s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:16:12,085 - distributed.core - INFO - Event loop was unresponsive in Worker for 126.91s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:16:23,023 - distributed.core - INFO - Event loop was unresponsive in Worker for 10.94s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:16:24,134 - distributed.core - INFO - Event loop was unresponsive in Worker for 100.14s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:16:42,862 - distributed.core - INFO - Event loop was unresponsive in Worker for 74.76s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:16:58,584 - distributed.core - INFO - Event loop was unresponsive in Worker for 148.64s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:18:29,618 - distributed.core - INFO - Event loop was unresponsive in Worker for 178.77s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 17:19:24,203 - distributed.core - INFO - Event loop was unresponsive in Worker for 181.18s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2025-05-30 18:52:10,503 - distributed.worker - WARNING - Compute Failed
+Key:       read_json_file-2f54a31b-6879-4c5f-8fd0-736f81dc79c9
+Function:  execute_task
+args:      ((<function read_json_file at 0x7f33095d11f0>, <OpenFile '/home/anitasun/macs30123-party-model/batch_test.csv'>, 'records', True, <function read_json at 0x7f3348b93550>, False, '/home/anitasun/macs30123-party-model/batch_test.csv', CategoricalDtype(categories=['/home/anitasun/macs30123-party-model/batch_test.csv'], ordered=False), (<class 'dict'>, [])))
+kwargs:    {}
+Exception: "ValueError('Expected object or value')"
+

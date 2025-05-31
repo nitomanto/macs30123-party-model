@@ -8,7 +8,8 @@ from mesa.batchrunner import batch_run
 import numpy as np
 from partymodel import PartyModel
 import json
-from mpi4py import MPI
+import pandas as pd
+#from mpi4py import MPI
 
 params_dict = {0: {'alcohol_prop': 0.1, 'p': np.arange(0.01, 0.06, 0.01)}, 
                1: {'alcohol_prop': 0.1, 'p': np.arange(0.06, 0.11, 0.01)},
@@ -34,20 +35,16 @@ params_dict = {0: {'alcohol_prop': 0.1, 'p': np.arange(0.01, 0.06, 0.01)},
 
 if __name__=="__main__":
 
-    rank = comm = MPI.COMM_WORLD
-    rank = comm.Get_rank()
-    size = comm.Get_size()
-
-    params = {'neighbor_dance_thres':np.linspace(0.1, 1, 10),
+    params = {'neighbor_dance_thres': 0.5,
             'alcohol_dance_thres': range(2, 5),
             'energy':15,
-            'alcohol_prop':params_dict[rank]['alcohol_prop'],
+            'alcohol_prop':[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
             'extro_floor':0,
             'extro_ceiling':1,
             'k': range(2,16),
-            'p': params_dict[rank]['p'],
+            'p': np.arange(0.01, 0.11, 0.01),
             'network_type':"wattsstrogatz",
-            'seed':[0,2,4,6,8,10]}
+            'seed':range(0, 20)}
 
     results = batch_run(
     PartyModel,
@@ -55,10 +52,10 @@ if __name__=="__main__":
     iterations = 1,
     max_steps = 100,
     #data_collection_period = 1,
-    #number_processes = 10
+    number_processes = 20
     )
 
-    with open(f'json_folder/batch_test_midway_{rank}.json', 'w') as f:
-        json.dump(results, f)
+    df = pd.DataFrame(results)
+    df.to_csv('batch_test.csv')
 
     print('all done!')

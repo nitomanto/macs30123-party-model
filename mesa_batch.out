@@ -1,0 +1,34 @@
+Processing /home/anitasun/mesa_bundle/mesa-3.2.1.dev0-py3-none-any.whl
+Requirement already satisfied: numpy in /software/python-anaconda-2023.09-el8-x86_64/lib/python3.11/site-packages (from mesa==3.2.1.dev0) (1.24.4)
+Requirement already satisfied: pandas in /software/python-anaconda-2023.09-el8-x86_64/lib/python3.11/site-packages (from mesa==3.2.1.dev0) (1.5.3)
+Requirement already satisfied: scipy in /software/python-anaconda-2023.09-el8-x86_64/lib/python3.11/site-packages (from mesa==3.2.1.dev0) (1.10.1)
+Requirement already satisfied: tqdm in /software/python-anaconda-2023.09-el8-x86_64/lib/python3.11/site-packages (from mesa==3.2.1.dev0) (4.65.0)
+Requirement already satisfied: python-dateutil>=2.8.1 in /software/python-anaconda-2023.09-el8-x86_64/lib/python3.11/site-packages (from pandas->mesa==3.2.1.dev0) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /software/python-anaconda-2023.09-el8-x86_64/lib/python3.11/site-packages (from pandas->mesa==3.2.1.dev0) (2022.7)
+Requirement already satisfied: six>=1.5 in /software/python-anaconda-2023.09-el8-x86_64/lib/python3.11/site-packages (from python-dateutil>=2.8.1->pandas->mesa==3.2.1.dev0) (1.16.0)
+mesa is already installed with the same version as the provided wheel. Use --force-reinstall to force an installation of the wheel.
+Looking in links: /home/anitasun/mesa_bundle
+Requirement already satisfied: networkx in /software/python-anaconda-2023.09-el8-x86_64/lib/python3.11/site-packages (3.1)
+Mesa version: 3.2.1.dev
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+Mesa loaded from: /home/anitasun/.local/lib/python3.11/site-packages/mesa/__init__.py
+all done!
