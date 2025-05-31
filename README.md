@@ -1,5 +1,5 @@
-# macs30123-party-model
-Final Project for MACS 30123. Parallelized parameter sweeps of an agent-based model aimed at modeling dance parties.
+## macs30123-party-model
+### Final Project for MACS 30123. Parallelized parameter sweeps of an agent-based model aimed at modeling dance parties.
 
 Sometime during the summer of 2023, one of my closest college friends decided to host a house
 party. She rented a large house with four other roommates, and this house had a wide living
@@ -75,3 +75,20 @@ which case _k_ is the more salient variable. The second reason is that the spawn
 both random and independent in my model, which means that the information cascade of
 dancing can begin from multiple nodes in the model and does not necessarily rely on optimal
 clustering or average shortest path to converge.
+
+## REPO
+
+`
+├── analysis.ipynb # IMPORTANT!! Contains all the visualizations!!
+├── batch_run_midway.sbatch # SBATCH file used to process job. Please forgive all the comments
+├── batch_test.csv # CSV file used for Dask analysis
+├── batch_test.json # IGNORE: saved out to the wrong file type
+├── batch_test_midway.json # IGNORE: failed attempt to parallelize with MPI
+├── batch_test.py # Python script with batch run instructions
+├── json_folder # IGNORE: failed attempt to parallelize with MPI
+├── mesa_batch.err # Errors from batch run SBATCH job
+├── mesa_batch.out # Outputs from batch run SBATCH job
+├── partyagent.py # Python file detailing agent logic
+├── partymodel.py # Python file detailing model logic
+└── README.md # this file
+`
