@@ -78,7 +78,7 @@ clustering or average shortest path to converge.
 
 ## REPO
 
-`
+```
 ├── analysis.ipynb # IMPORTANT!! Contains all the visualizations!!
 ├── batch_run_midway.sbatch # SBATCH file used to process job. Please forgive all the comments
 ├── batch_test.csv # CSV file used for Dask analysis
@@ -91,4 +91,4 @@ clustering or average shortest path to converge.
 ├── partyagent.py # Python file detailing agent logic
 ├── partymodel.py # Python file detailing model logic
 └── README.md # this file
-`
+```
